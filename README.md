@@ -43,6 +43,9 @@ Another way to put it is this project aims to provide you with what you need in 
 
 The original project creator found it childishly amusing.  And the domain name was available...
 
+If you think about it, after reading through all the information on this page, it really is a *framework* for creating *platforms*.  If you turn it around, it could also be said this project creates the *platform* for **your** *framework*.  You are not forced in your project to use a particular framework, or even use one at all.
+
+It's better said that you're free to use whatever framework you want, or not... the choice is yours.
 
 ## Why not Docker???
 
