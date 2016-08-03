@@ -44,8 +44,24 @@ Another way to put it is this project aims to provide you with what you need in 
 The original project creator found it childishly amusing.  And the domain name was available...
 
 
+## Why not Docker???
+
+That's a great question.  Docker currently has some known issues where it comes to completely isolating containers from each other, from a security context.  While Docker sure is neat, and it's future looks bright, due to those issues it's not something we can currently make use of.  That's not to say it can't or won't be looked at again in the future...
+
+Another reason we're currently not looking into Docker is there are already a lot of existing options out there for those who care to *containerize* their apps.
+
+However, if your project is already containerized, it may be possible to use Docker within the system to run your project.  Since your project will be running in it's own VM (of your creation), you are free to load up your VM with Docker, and run your project from that.  Whether that's feasible or not has yet to be established. But we're not currently looking at Docker as a key/major technology within our project.
+
 ## Current project status
 
-The project is newly created.
+The project is newly created (August 2016).  The current focus is on researching and evaluating the major technologies to be used.
 
 
+## Project components (*Breakin' it Down*)
+
+The philosophy is to comparment things from each other.  Keep things modular, on a system-level.  
+
+* The goal is to have one server, in order to keep costs down.
+* That one server will run some type of virtualization software / hypervisor.
+  * Currently we're looking at [Qubes](http://www.qubes-os.org).  They Qubes people are pretty smart and have a good reputation for security.  There are some pretty neat concepts within Qubes that we feel can be harnessed.
+    * *But Qubes is a **desktop OS**!*  I know.  And one of the Qubes project leads, Joanna Rutkowska, has even [publically stated](https://groups.google.com/d/msg/qubes-devel/BSP16ZYmSmA/bhAjZZOGai4J) it wouldn't make sense to use Qubes for a server, instead just use *Xen* (the underlying hypervisor for Qubes).  At this point we're disagreeing and thinking there could be something to this, but at this point it's just a concept and has yet to be proven...
