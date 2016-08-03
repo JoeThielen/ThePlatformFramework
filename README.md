@@ -46,7 +46,9 @@ The original project creator found it childishly amusing.  And the domain name w
 
 ## Why not Docker???
 
-That's a great question.  Docker currently has some known issues where it comes to completely isolating containers from each other, from a security context.  While Docker sure is neat, and it's future looks bright, due to those issues it's not something we can currently make use of.  That's not to say it can't or won't be looked at again in the future...
+That's a great question.  Docker currently has some known issues where it comes to completely isolating containers from each other, from a security context.  These are outlined [here](https://www.oreilly.com/ideas/five-security-concerns-when-using-docker).    Containers are not truly contained... in theory "container breakout" is possible.  With VMs when using technologies like [VT-x/AMD-V](https://en.wikipedia.org/wiki/X86_virtualization#Intel_virtualization_.28VT-x.29) & [VT-d/IOMMU](https://en.wikipedia.org/wiki/X86_virtualization#Intel-VT-d) this is **far less** of a possibility for VMs.  Not to say it'd be impossible, but certainly harder.
+
+While Docker sure is neat, and it's future looks bright, due to those issues it's not something we can currently make use of.  That's not to say it can't or won't be looked at again in the future...
 
 Another reason we're currently not looking into Docker is there are already a lot of existing options out there for those who care to *containerize* their apps.
 
@@ -65,3 +67,20 @@ The philosophy is to comparment things from each other.  Keep things modular, on
 * That one server will run some type of virtualization software / hypervisor.
   * Currently we're looking at [Qubes](http://www.qubes-os.org).  They Qubes people are pretty smart and have a good reputation for security.  There are some pretty neat concepts within Qubes that we feel can be harnessed.
     * *But Qubes is a **desktop OS**!*  I know.  And one of the Qubes project leads, Joanna Rutkowska, has even [publically stated](https://groups.google.com/d/msg/qubes-devel/BSP16ZYmSmA/bhAjZZOGai4J) it wouldn't make sense to use Qubes for a server, instead just use *Xen* (the underlying hypervisor for Qubes).  At this point we're disagreeing and thinking there could be something to this, but at this point it's just a concept and has yet to be proven...
+* Your app will hide behind not one, but two VMs...
+  * First is the Qubes Firewall VM.
+  * Second is the project's reverse proxy VM, possibly making use of [ModSecurity](https://www.modsecurity.org/) to provide a *Web Application Firewall (WAF)*.  This will potentionally help reduce malicious traffic.
+* The project will also provide auth services and *Identity Management (IdM)*.  We're currently looking at the [FreeIPA](https://www.freeipa.org) project software for this purpose.
+  * This will run in it's own VM as well.
+  * This means that if you've not written your app yet, or are willing to modify it (perhaps significantly), then auth and user management parts are *already done* for you...!
+    * This also potentially (assuming FreeIPA) includes some really neat features like *Kerberos* and *LDAP*...
+* As time goes on there will be more features, and certainly more VMs...
+
+So, the question becomes, can one machine run all this, **and** be affordable to small- and medium-sized organizations / businesses?  We're not entirely sure just yet.  But we're going to find out... 
+
+
+## Who is "*we*"?
+
+Well, um, currently, it's just me, Joe Thielen, project creator.  But I'm hoping in time the project will grow and be joined by other individuals who share similar beliefs in the project goals / guidelines.
+
+Please, *feel free* to drop a line!  I've created this project on GitHub specifically to help attract attention and make the project larger than myself.
