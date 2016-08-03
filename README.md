@@ -92,3 +92,5 @@ Please, *feel free* to drop a line!  I've created this project on GitHub specifi
 ## Who is *Joe Thielen*?
 
 I've been creating fairly complex monolithic LAMP apps for both non- and for-profit companies for over 20 years.  My experience lies with small- and medium- sized organizations / businesses in the USA.  I no longer wish to keep making apps which are *monolithic*.  That's the basic genesis for this project.
+
+View my [LinkedIn Profile](https://www.linkedin.com/in/joethielen) for more professional (*or lack thereof*) information.
