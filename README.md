@@ -1,4 +1,4 @@
-# ThePlatformFramework
+# The Platform Framework
 
 ## **_The platform for YOUR framework!_**
 #### *Funny name,  Lofty goals.*
@@ -12,11 +12,14 @@ Wikipedia defines **Framework** (*[Software Framework](https://en.wikipedia.org/
 > In computer programming, a software framework is an abstraction in which software providing generic functionality can be selectively changed by additional user-written code, thus providing application-specific software.
 
 ## What is The Platform Framework???
+This project was established to help provide a platform for projects aimed at small- to medium-sized organizations/businesses. 
 
-This project was established to help provide a platform for projects aimed at small- to medium-sized organizations/businesses.  
+## Could you be a little more... specific?
+Let's say you've got a [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) project and want to get it up and running at a business.  Maybe hardware isn't your thing.  Maybe you're a bit frightened by all the hacking going on.  This project aims to provide a platform for your project, using several specific technologies to help *armor* your project.   Additionally, the goal is to provide specifics on how, exactly, to get a server loaded with your project running on this platform into the hands of the target organization / business.  
+
+Another way to put it is this project aims to provide you with what you need in order to turn *your* project into a [turn-key appliance](https://en.wikipedia.org/wiki/Computer_appliance).  
 
 ## Project Goals / Guidelines
-
 * The target is primarily small- to medium-sized businesses.
   * Enterprise already has a wealth of solutions involving multiple servers, data centers, cloud technologies, etc..
 * Emphasis on security and automation.
@@ -36,7 +39,13 @@ This project was established to help provide a platform for projects aimed at sm
   * Redundant/replication servers are another goal.
   * Development environment server.
 
+## Why the name *The Platform Framework*?
+
+The original project creator found it childishly amusing.  And the domain name was available...
 
 
+## Current project status
+
+The project is newly created.
 
 
