@@ -8,7 +8,7 @@ Wikipedia defines **Platform** (*[Computing Platform](https://en.wikipedia.org/w
 >
 >The term computing platform can refer to different abstraction levels, including a certain hardware architecture, an operating system (OS), and runtime libraries.[1] In total it can be said to be the stage on which computer programs can run.
 
-Wikipedia defines **Framework** (*[Software Platform](https://en.wikipedia.org/wiki/Software_framework)*) as...
+Wikipedia defines **Framework** (*[Software Framework](https://en.wikipedia.org/wiki/Software_framework)*) as...
 > In computer programming, a software framework is an abstraction in which software providing generic functionality can be selectively changed by additional user-written code, thus providing application-specific software.
 
 
