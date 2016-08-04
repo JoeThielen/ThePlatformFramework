@@ -1,6 +1,9 @@
 # The Platform Framework
 
 ## **_The platform for YOUR framework!_**
+
+![YOUR project ... in the hands of YOUR customer!](ThePlatformFramework-Components-Small.png "YOUR project ... in the hands of YOUR customer!")
+
 #### *Funny name,  Lofty goals.*
 
 Wikipedia defines **Platform** (*[Computing Platform](https://en.wikipedia.org/wiki/Computing_platform)*) as...
