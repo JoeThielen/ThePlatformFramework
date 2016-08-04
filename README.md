@@ -86,7 +86,7 @@ So, the question becomes, can one machine run all this, **and** be affordable to
 
 Well, um, currently, it's just me, Joe Thielen, project creator.  But I'm hoping in time the project will grow and be joined by other individuals who share similar beliefs in the project goals / guidelines.
 
-Please, *feel free* to drop a line!  I've created this project on GitHub specifically to help attract attention and make the project larger than myself.
+Please, *feel free* to drop a line!  *Mailing list coming soon*. I've created this project on GitHub specifically to help attract attention and make the project larger than myself.
 
 
 ## Who is *Joe Thielen*?
