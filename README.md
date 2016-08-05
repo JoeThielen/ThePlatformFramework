@@ -138,7 +138,7 @@ Please, *feel free* to drop a line on the [Mailing List](http://www.freelists.or
   * Enter your e-mail address in the *User Options: Your email address* field.
   * In the *Choose an action:* drop-down choose *Subscribe* and press the *Go!* button.
 
-** How to send an e-mail to the mailing list (_after you've subscribed_):**
+**How to send an e-mail to the mailing list (_after you've subscribed_):**
 Send an e-mail to [theplatformframework@freelists.org](mailto:theplatformframework@freelists.org)
 
 **How to search the mailing list archive:**
