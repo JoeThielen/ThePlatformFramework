@@ -92,7 +92,9 @@ However, if your project is already containerized, it may be possible to use Doc
 <a name="status"/>
 ## Current project status
 
-The project is newly created (August 2016).  The current focus is on researching and evaluating the major technologies to be used.
+The project is newly created (August 2016).  The current focus is on researching and evaluating the major technologies to be used.  As such, there may be multiple avenues of research which will be referenced as *tracks*.  Therefore the [Wiki](../../wiki/Tracks) will be used to document the *tracks*. 
+
+[Track0](../../wiki/track0) is the only current active track.
 
 [*Back to TOC*](#toc)
 
