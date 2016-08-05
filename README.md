@@ -32,11 +32,15 @@ Wikipedia defines **Framework** (*[Software Framework](https://en.wikipedia.org/
 ## What is The Platform Framework???
 This project was established to help provide a platform for software projects aimed at small- to medium-sized organizations/businesses. 
 
+[*Back to TOC*](#toc)
+
 <a name="whatisitspecifically"/>
 ## Could you be a little more... specific?
 Let's say you've got a [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) project and want to get it up and running at a business.  Maybe hardware isn't your thing.  Maybe you're a bit frightened by all the hacking going on.  This project aims to provide a platform for your project, using several specific technologies to help *armor* your project.   Additionally, the goal is to provide specifics on how, exactly, to get a server loaded with your project running on this platform into the hands of the target organization / business.  
 
 Another way to put it is this project aims to provide you with what you need in order to turn *your* project into a [turn-key appliance](https://en.wikipedia.org/wiki/Computer_appliance).  
+
+[*Back to TOC*](#toc)
 
 <a name="goals"/>
 ## Project Goals / Guidelines
@@ -59,6 +63,8 @@ Another way to put it is this project aims to provide you with what you need in 
   * Redundant/replication servers are another goal.
   * Development environment server.
 
+[*Back to TOC*](#toc)
+
 <a name="whythename"/>
 ## Why the name *The Platform Framework*?
 
@@ -67,6 +73,8 @@ The original project creator found it childishly amusing.  And the domain name w
 If you think about it, after reading through all the information on this page, it really is a *framework* for creating *platforms*.  If you turn it around, it could also be said this project creates the *platform* for **your** *framework*.  You are not forced in your project to use a particular framework, or even use one at all.
 
 It's better said that you're free to use whatever framework you want, or not... the choice is yours.
+
+[*Back to TOC*](#toc)
 
 <a name="whynotdocker"/>
 ## Why not Docker???
@@ -79,10 +87,14 @@ Another reason we're currently not looking into Docker is there are already a lo
 
 However, if your project is already containerized, it may be possible to use Docker within the system to run your project.  Since your project will be running in it's own VM (of your creation), you are free to load up your VM with Docker, and run your project from that.  Whether that's feasible or not has yet to be established. But we're not currently looking at Docker as a key/major technology within our project.
 
+[*Back to TOC*](#toc)
+
 <a name="status"/>
 ## Current project status
 
 The project is newly created (August 2016).  The current focus is on researching and evaluating the major technologies to be used.
+
+[*Back to TOC*](#toc)
 
 <a name="components"/>
 ## Project components (*Breakin' it Down*)
@@ -104,12 +116,16 @@ The philosophy is to comparment things from each other.  Keep things modular, on
 
 So, the question becomes, can one machine run all this, **and** be affordable to small- and medium-sized organizations / businesses?  We're not entirely sure just yet.  But we're going to find out... 
 
+[*Back to TOC*](#toc)
+
 <a name="whoiswe"/>
 ## Who is "*we*"?
 
 Well, um, currently, it's just me, Joe Thielen, project creator.  But I'm hoping in time the project will grow and be joined by other individuals who share similar beliefs in the project goals / guidelines.
 
 Please, *feel free* to drop a line on the [Mailing List](http://www.freelists.org/list/theplatformframework)!  I've created this project on GitHub specifically to help attract attention and make the project larger than myself.
+
+[*Back to TOC*](#toc)
 
 <a name="mailinglist"/>
 ## The mailing list
@@ -134,9 +150,13 @@ There is also a search page available at: [http://www.freelists.org/archive/thep
   * Enter your e-mail address in the *User Options: Your email address* field.
   * In the *Choose an action:* drop-down choose *Unsubscribe* and press the *Go!* button.
 
+[*Back to TOC*](#toc)
+
 <a name="joethielen"/>
 ## Who is *Joe Thielen*?
 
 I've been creating fairly complex monolithic LAMP apps for both non- and for-profit companies for over 20 years.  My experience lies with small- and medium- sized organizations / businesses in the USA.  I no longer wish to keep making apps which are *monolithic*.  That's the basic genesis for this project.
 
 View my [LinkedIn Profile](https://www.linkedin.com/in/joethielen) for more professional (*or lack thereof*) information.
+
+[*Back to TOC*](#toc)
