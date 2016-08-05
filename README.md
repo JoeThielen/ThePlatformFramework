@@ -96,19 +96,19 @@ Please, *feel free* to drop a line on the [Mailing List](http://www.freelists.or
 **Mailing list page:** [http://www.freelists.org/list/theplatformframework]
 
 **How to subscribe to the mailing list:**
-* Option 1: Send an e-mail to [mailto:theplatformframework-request@freelists.org?subject=subscribe](theplatformframework-request@freelists.org) with 'subscribe' in the Subject field.
+* Option 1: Send an e-mail to [theplatformframework-request@freelists.org](mailto:theplatformframework-request@freelists.org?subject=subscribe) with 'subscribe' in the Subject field.
 * Option 2: Visit the [mailing list page](http://www.freelists.org/list/theplatformframework)
   * Enter your e-mail address in the *User Options: Your email address* field.
   * In the *Choose an action:* drop-down choose *Subscribe* and press the *Go!* button.
 
 ** How to send an e-mail to the mailing list (_after you've subscribed_):**
-Send an e-mail to [mailto:theplatformframework@freelists.org](theplatformframework@freelists.org)
+Send an e-mail to [theplatformframework@freelists.org](mailto:theplatformframework@freelists.org)
 
 **How to search the mailing list archive:**
 There is also a search page available at: [http://www.freelists.org/archive/theplatformframework]
 
 **How to unsubscribe from the mailing list:**
-* Option 1: Send an e-mail to [mailto:theplatformframework-request@freelists.org?subject=unsubscribe](theplatformframework-request@freelists.org) with 'unsubscribe' in the Subject field.
+* Option 1: Send an e-mail to [theplatformframework-request@freelists.org](mailto:theplatformframework-request@freelists.org?subject=unsubscribe) with 'unsubscribe' in the Subject field.
 * Option 2: Visit the [mailing list page](http://www.freelists.org/list/theplatformframework)
   * Enter your e-mail address in the *User Options: Your email address* field.
   * In the *Choose an action:* drop-down choose *Unsubscribe* and press the *Go!* button.
