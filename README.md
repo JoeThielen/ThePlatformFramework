@@ -103,6 +103,8 @@ The project is newly created (August 2016).  The current focus is on researching
 
 The philosophy is to comparment things from each other.  Keep things modular, on a system-level.  
 
+![A diagram showing the platform components.](Platform-With_Your_Project.png "A diagram showing the platform components.")
+
 * The goal is to have one server, in order to keep costs down.
 * That one server will run some type of virtualization software / hypervisor.
   * Currently we're looking at [Qubes](http://www.qubes-os.org).  They Qubes people are pretty smart and have a good reputation for security.  There are some pretty neat concepts within Qubes that we feel can be harnessed.
