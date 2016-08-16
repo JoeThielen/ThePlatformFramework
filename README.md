@@ -112,7 +112,7 @@ The philosophy is to comparment things from each other.  Keep things modular, on
 * Your app will hide behind not one, but two VMs...
   * First is the Qubes Firewall VM.
   * Second is the project's reverse proxy VM, possibly making use of [ModSecurity](https://www.modsecurity.org/) to provide a *Web Application Firewall (WAF)*.  This will potentionally help reduce malicious traffic.
-* The project will also provide auth services and *Identity Management (IdM)*.  We're currently looking at the [FreeIPA](https://www.freeipa.org) project software for this purpose.
+* The project will also provide auth services and *Identity Management (IdM)*.  We're currently looking at the [Keycloak](http://www.keycloak.org/) and [FreeIPA](https://www.freeipa.org) projects software for this purpose.
   * This will run in it's own VM as well.
   * This means that if you've not written your app yet, or are willing to modify it (perhaps significantly), then auth and user management parts are *already done* for you...!
     * This also potentially (assuming FreeIPA) includes some really neat features like *Kerberos* and *LDAP*...
