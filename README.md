@@ -94,7 +94,10 @@ However, if your project is already containerized, it may be possible to use Doc
 
 The project is newly created (August 2016).  The current focus is on researching and evaluating the major technologies to be used.  As such, there may be multiple avenues of research which will be referenced as *tracks*.  Therefore the [Wiki](../../wiki/Tracks) will be used to document the *tracks*. 
 
-[Track0](../../wiki/track0) is the only current active track.
+
+Current active tracks:
+[Track0](../../wiki/track0) - Solution using [FreeIPA](https://www.freeipa.org) (includes Kerberos, LDAP, & DogTag Certificate Authority/CA)
+[Track1](../../wiki/track1) - Solution using [Keycloak](http://www.keycloak.org/)
 
 [*Back to TOC*](#toc)
 
