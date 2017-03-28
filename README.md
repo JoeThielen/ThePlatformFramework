@@ -65,7 +65,7 @@ Another way to put it is this project aims to provide you with what you need in 
 
 [*Back to TOC*](#toc)
 
-<a name="whythename"/>
+<a name="whythename"/></a>
 ## Why the name *The Platform Framework*?
 
 The original project creator found it childishly amusing.  And the domain name was available...
@@ -76,7 +76,7 @@ It's better said that you're free to use whatever framework you want, or not... 
 
 [*Back to TOC*](#toc)
 
-<a name="whynotdocker"/>
+<a name="whynotdocker"/></a>
 ## Why not Docker???
 
 That's a great question.  Docker currently has some known issues where it comes to completely isolating containers from each other, from a security context.  These are outlined [here](https://www.oreilly.com/ideas/five-security-concerns-when-using-docker).    Containers are not truly contained... in theory "container breakout" is possible.  With VMs when using technologies like [VT-x/AMD-V](https://en.wikipedia.org/wiki/X86_virtualization#Intel_virtualization_.28VT-x.29) & [VT-d/IOMMU](https://en.wikipedia.org/wiki/X86_virtualization#Intel-VT-d) this is **far less** of a possibility for VMs.  Not to say it'd be impossible, but certainly harder.
@@ -89,7 +89,7 @@ However, if your project is already containerized, it may be possible to use Doc
 
 [*Back to TOC*](#toc)
 
-<a name="status"/>
+<a name="status"/></a>
 ## Current project status
 
 The project is newly created (August 2016).  The current focus is on researching and evaluating the major technologies to be used.  As such, there may be multiple avenues of research which will be referenced as *tracks*.  Therefore the [Wiki](../../wiki/Tracks) will be used to document the *tracks*. 
@@ -101,7 +101,7 @@ The project is newly created (August 2016).  The current focus is on researching
 
 [*Back to TOC*](#toc)
 
-<a name="components"/>
+<a name="components"/></a>
 ## Project components (*Breakin' it Down*)
 
 The philosophy is to comparment things from each other.  Keep things modular, on a system-level.  
@@ -125,7 +125,7 @@ So, the question becomes, can one machine run all this, **and** be affordable to
 
 [*Back to TOC*](#toc)
 
-<a name="whoiswe"/>
+<a name="whoiswe"/></a>
 ## Who is "*we*"?
 
 Well, um, currently, it's just me, Joe Thielen, project creator.  But I'm hoping in time the project will grow and be joined by other individuals who share similar beliefs in the project goals / guidelines.
@@ -134,7 +134,7 @@ Please, *feel free* to drop a line on the [Mailing List](http://www.freelists.or
 
 [*Back to TOC*](#toc)
 
-<a name="mailinglist"/>
+<a name="mailinglist"/></a>
 ## The mailing list
 
 **Mailing list page:** [http://www.freelists.org/list/theplatformframework]
@@ -159,7 +159,7 @@ There is also a search page available at: [http://www.freelists.org/archive/thep
 
 [*Back to TOC*](#toc)
 
-<a name="joethielen"/>
+<a name="joethielen"/></a>
 ## Who is *Joe Thielen*?
 
 I've been creating fairly complex monolithic LAMP apps for both non- and for-profit companies for over 20 years.  My experience lies with small- and medium- sized organizations / businesses in the USA.  I no longer wish to keep making apps which are *monolithic*.  That's the basic genesis for this project.
