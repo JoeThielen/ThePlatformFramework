@@ -96,8 +96,7 @@ The project is newly created (August 2016).  The current focus is on researching
 
 
 * Current active tracks:
-  * [Track0](../../wiki/track0) - Solution using [FreeIPA](https://www.freeipa.org) (includes Kerberos, LDAP, & DogTag Certificate Authority/CA)
-  * [Track1](../../wiki/track1) - Solution using [Keycloak](http://www.keycloak.org/)
+  * [Track2](../../wiki/track2) - Solution using [Keycloak](http://www.keycloak.org/)
 
 [*Back to TOC*](#toc)
 
