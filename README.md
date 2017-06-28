@@ -18,6 +18,7 @@ Wikipedia defines **Framework** (*[Software Framework](https://en.wikipedia.org/
 ## Table of Contents
 * [What is The Platform Framework???](#whatisit)
 * [Could you be a little more... specific?](#whatisitspecifically)
+* [Why is this so complicated?](#whycomplex)
 * [Project Goals / Guidelines](#goals)
 * [Why the name *The Platform Framework*?](#whythename)
 * [Why not Docker???](#whynotdocker)
@@ -41,6 +42,25 @@ Let's say you've got a [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundl
 Another way to put it is this project aims to provide you with what you need in order to turn *your* project into a [turn-key appliance](https://en.wikipedia.org/wiki/Computer_appliance).  
 
 [*Back to TOC*](#toc)
+
+
+<a name="whycomplex"/></a>
+## Why is this so complicated?
+
+If you're coming from the land of monolithic LAMP apps, then yes, this can seem seriously complicated.  The whole point of *The Platform Framework* is making use of **_compartmentalization_** for enhanced security.  
+
+*Security, when done right, is never, **ever** easy.*
+
+Wikipedia has a great short definition of **Compartmentalization** as it relates to engineering... (*[Compartmentalization (engineering)](https://en.wikipedia.org/wiki/Compartmentalization_(engineering))*)...
+> When referring to engineering, compartmentalization is the general technique of separating two or more parts of a system to prevent malfunctions from spreading between or among them. This entails the breaking up of a project or problem into sub classes and sub categories, with the intention of simplifying the task at hand, or to efficiently distribute it amongst a number of teams or people.
+
+Wikipedia also has further information relating to compartmentalization as it relates to [Information Security](https://en.wikipedia.org/wiki/Compartmentalization_(information_security)).  This is quite applicable to *The Platform Framework* as well.  *TPF* provides *Identity Management (IdM)* which also provides *Authorization* services.  If you structure your application to make use of these authorization services, you can compartmentalize sensitive information.
+
+*TPF* is complicated because there are several layers of security to set up.  However, this project aims to provide you with  the information you need to get your application up and running within the *TPF* environment.  
+
+
+[*Back to TOC*](#toc)
+
 
 <a name="goals"/></a>
 ## Project Goals / Guidelines
