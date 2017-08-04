@@ -23,6 +23,7 @@ Wikipedia defines **Framework** (*[Software Framework](https://en.wikipedia.org/
 * [Why the name *The Platform Framework*?](#whythename)
 * [Why not Docker???](#whynotdocker)
 * [Current project status](#status)
+  * [Possible future track](#status_future1)
 * [Project components (*Breakin' it Down*)](#components)
 * [Who is "*we*"?](#whoiswe)
 * [The mailing list](#mailinglist)
@@ -109,14 +110,22 @@ However, if your project is already containerized, it may be possible to use Doc
 
 [*Back to TOC*](#toc)
 
+
 <a name="status"/></a>
 ## Current project status
 
-The project is newly created (August 2016).  The current focus is on researching and evaluating the major technologies to be used.  As such, there may be multiple avenues of research which will be referenced as *tracks*.  Therefore the [Wiki](../../wiki/Tracks) will be used to document the *tracks*. 
-
+The current project focus is on continued development of *track2*.  The [Wiki](../../wiki/Tracks) is used to document the *tracks*.
 
 * Current active tracks:
   * [Track2](../../wiki/track2) - Solution using [Keycloak](http://www.keycloak.org/)
+
+[*Back to TOC*](#toc)
+
+
+<a name="status_future1"/></a>
+### Possible future track
+Future efforts may include a new/separate track making use of a *DMZ* type VM between the proxy and primary project VMs.  An application making use of this track would split it's public facing code on the *DMZ* and put everything else behind the *DMZ* (in the *new* primary project VM), protected from direct outside access.  This would create an two-level *API*-like effect where **ONLY** the public/*API* code were exposed in the event of a worst-case scenario, a *root*-level breach of the *DMZ* VM.  In this scenario the *DMZ* VM would, in theory,  not contain any confidential information, would not have direct access to *DBs*, and would not have passwords or any sort of direct access.  All of that would be in the new primary project VM, which is only accessible via another *API* on the primary project VM, and all requests would need an auth server token (i.e., *JWT from Keycloak*).  So even if the *DMZ* VM were breached, access is compartmentalized.  This concept will require much further research and testing.
+
 
 [*Back to TOC*](#toc)
 
