@@ -1,10 +1,34 @@
 # The Platform Framework
 
+---
+
+---
+
+# *IMPORTANT NOTE!!!* - THIS PROJECT IS NOT CURRENTLY UNDER ACTIVE DEVELOPMENT!
+
+---
+
+---
+
+
 ## **_The platform for YOUR framework!_**
 
 ![YOUR project ... in the hands of YOUR customer!](ThePlatformFramework-Components-Small.png "YOUR project ... in the hands of YOUR customer!")
 
+
+
+---
+
+---
+
+# *IMPORTANT NOTE!!!* - THIS PROJECT IS NOT CURRENTLY UNDER ACTIVE DEVELOPMENT!
+
+---
+
+---
+
 #### *Funny name,  Lofty goals.*
+
 
 Wikipedia defines **Platform** (*[Computing Platform](https://en.wikipedia.org/wiki/Computing_platform)*) as...
 > A computing platform is, in the most general sense, whatever a pre-existing piece of computer software or code object is designed to run within, obeying its constraints, and making use of its facilities.
@@ -113,6 +137,17 @@ However, if your project is already containerized, it may be possible to use Doc
 
 <a name="status"/></a>
 ## Current project status
+
+---
+
+---
+
+# *IMPORTANT NOTE!!!* - THIS PROJECT IS NOT CURRENTLY UNDER ACTIVE DEVELOPMENT!
+
+---
+
+---
+
 
 The current project focus is on continued development of *track2*.  The [Wiki](../../wiki/Tracks) is used to document the *tracks*.
 
